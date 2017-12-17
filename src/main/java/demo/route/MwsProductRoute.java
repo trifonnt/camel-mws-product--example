@@ -59,5 +59,4 @@ public class MwsProductRoute extends RouteBuilder {
 			.to("mws-product://DE?mwsUrl=RAW({{MWS_URL}})&merchantId=RAW({{MWS_MERCHANT_ID}})&accessKey=RAW({{MWS_ACCESS_KEY}})&secretAccessKey=RAW({{MWS_SECRET_ACCESS_KEY}})")
 		;
 	}
-
 }
